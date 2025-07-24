@@ -1,0 +1,11 @@
+{
+  "batch_size": 4,
+  "total_epochs": 10,
+  "lambda_l1": 100,
+  "learning_rate": 0.0002,
+  "optimizer": "Adam",
+  "beta1": 0.5,
+  "beta2": 0.999,
+  "image_size": [256, 256],
+  "dataset_limit": 1000
+}
