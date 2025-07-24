@@ -1,0 +1,14 @@
+
+{
+  "original_dir": "../data/original",
+  "cartoon_dir": "../data/cartoonized",
+  "batch_size": 8,
+  "total_epochs": 100,
+  "lambda_l1": 50,
+  "learning_rate": 1e-4,
+  "limit": 1500,
+  "beta1": 0.5,
+  "beta2": 0.999
+}
+
+
