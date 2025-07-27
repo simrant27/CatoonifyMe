@@ -1,1 +1,4 @@
 /data
+/server/outputs
+/server/uploads
+/server/venv

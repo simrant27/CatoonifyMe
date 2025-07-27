@@ -1,0 +1,14 @@
+ {
+  "original_dir": "/content/drive/MyDrive/final project/img1500/train2000/original",
+  "cartoon_dir": "/content/drive/MyDrive/final project/img1500/train2000/cartoonized",
+  "batch_size": 8,                  
+  "total_epochs": 150,             
+  "lambda_l1": 70,                  
+  "learning_rate": 5e-5,            
+  "optimizer": "Adam",
+  "beta1": 0.5,                    
+  "beta2": 0.999,
+  "image_size": [256, 256],         
+  "dataset_limit": 1400            
+}
+
