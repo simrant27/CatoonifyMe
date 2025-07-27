@@ -1,0 +1,15 @@
+
+{
+  "original_dir": "../data/train/original",
+  "cartoon_dir": "../data/train/cartoon",
+  "val_original_dir": "../data/val/original",   
+  "val_cartoon_dir": "../data/val/cartoon",  
+  "batch_size": 8,
+  "lambda_l1": 100,
+  "learning_rate": 0.0002,
+  "limit": 4000,
+  "beta1": 0.5,
+  "beta2": 0.999
+}
+
+
