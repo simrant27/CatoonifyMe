@@ -1,0 +1,138 @@
+.containerBody {
+  color: #0c0c0c;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 0px;
+  max-width:80rem ;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.brand-name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.upload-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-form {
+  margin-bottom: 30px;
+}
+
+.file-input {
+  margin-right: 10px;
+  
+}
+
+.upload-button {
+  background-color: #7a44aa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.upload-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.image-preview-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 300px;
+  min-width: 250px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 280px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.placeholder-text {
+  color: #888;
+  margin-top: 130px;
+}
+/* Hide default file input */
+.file-input-hidden {
+  display: none;
+}
+
+/* Custom styled "Choose Image" button */
+.custom-file-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-button:hover {
+  background-color: #e65c50;
+}
+
+
+.download-button {
+  margin-top: 10px;
+  height: 20px;
+  width: 20px;
+  /* display: inline-block; */
+  /* background-color: #7a44aa; */
+  /* color: white; */
+  /* padding: 10px 20px; */
+  /* border-radius: 8px; */
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #b58adb;
+}
